@@ -1,0 +1,98 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #ffffff;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #E6E1E1;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+ h1{
+    align-items: center;
+    margin-left: 250px;
+margin-right: 250px;
+text-align: justify;
+    font-size: 1.7rem;
+        font-family: "Jersey 15", serif;
+        font-weight: 500;
+        font-style: normal;
+        color:#008FA8;
+        padding: 10px;
+        margin: 20px;
+    
+      }
+      
+
+.dot{
+        height: 95px;
+        width: 95px;
+        background-color: #008FA8;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 46.5%;
+        margin-top: 13%;
+
+}
+
+.rumors{
+
+    color:#ffffff;
+    text-decoration: none;
+    border: 2px;
+    padding:3px;
+    padding-left: 2px;
+    border-color: #FF0000;
+    background-color: #FF0000;
+    border-radius: 5%;
+
+}
+
+.rumors:hover{
+  color:#ffffff;
+  text-decoration: none;
+  border: 2px;
+  padding:3px;
+  padding-left: 2px;
+  border-color: #00ffff;
+  background-color: #00ffff;
+  border-radius: 5%;
+
+}
+.rumors:active{
+
+  color:#ffffff;
+    text-decoration: none;
+    border: 2px;
+    padding:3px;
+    padding-left: 2px;
+    border-color: #FF0000;
+    background-color: #FF0000;
+    border-radius: 5%;
+}
