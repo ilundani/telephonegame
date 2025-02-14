@@ -7,6 +7,7 @@ body {
   align-items: center;
   background-color: #ffffff;
 
+
 }
 .dotcontainer{
   width:100%;
@@ -58,15 +59,15 @@ margin-left: 45px;
   height:150px;
   width: 150px;
   margin-bottom: -55px;
-  margin-left: 1100px;
+  margin-left: 1050px;
 
 }
 
 .red2{
   height:65px;
   width:65px;
-  margin-top: -45px;
-  margin-left: 1200px;
+  margin-top: -95px;
+  margin-left: 900px;
 
 }
 
@@ -74,7 +75,7 @@ margin-left: 45px;
   height: 30px;
    width: 30px;
   margin-bottom:-160px;
-     margin-left:900px;
+     margin-left:1200px;
      
      }
 
@@ -82,12 +83,12 @@ margin-left: 45px;
       height: 100px;
        width: 100px;
       margin-top:-60px;
-         margin-left:1000px;
+         margin-left:1101px;
                  }
 
 
-                 .blue1, .red1, .green1, .blue2, .yellow2, .yellow1, .red2, .green2, .blue3 {
-                  transition: transform 0.5s ease-in-out; 
+                 .blue1, .red1, .green1, .blue2, .yellow2, .yellow1, .red2, .green2, .blue3, .yellow2 {
+                  transition: transform 0.3s ease-in-out; 
                 }
 
          .blue1:hover {
@@ -129,7 +130,7 @@ margin-left: 45px;
 .whatisit{
 margin-left: 300px;
 margin-right: 300px;
-font-size: 2.7em;
+font-size: 1.7em;
 margin-bottom: 25px;
 font-family: "Jersey 15", serif;
 font-weight: 300;
@@ -169,8 +170,8 @@ color: #008FA8;
 
 
 .glow-on-hover {
-  width: 125px;
-  height: 125px;
+  width: 100px;
+  height: 100px;
   border: none;
   outline: none;
   color: #008FA8;
@@ -179,6 +180,7 @@ color: #008FA8;
   position: relative;
   z-index: 0;
   border-radius: 50%;
+  margin-bottom: 50px;
   
 }
 
@@ -232,4 +234,6 @@ color: #008FA8;
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
+
+
 
