@@ -58,7 +58,7 @@ margin-left: 45px;
   height:150px;
   width: 150px;
   margin-bottom: -55px;
-  margin-left: 2400px;
+  margin-left: 900px;
 
 }
 
@@ -66,7 +66,7 @@ margin-left: 45px;
   height:65px;
   width:65px;
   margin-top: -45px;
-  margin-left: 2300px;
+  margin-left: 900px;
 
 }
 
@@ -74,7 +74,7 @@ margin-left: 45px;
   height: 30px;
    width: 30px;
   margin-bottom:-160px;
-     margin-left:2600px;
+     margin-left:900px;
      
      }
 
@@ -82,7 +82,7 @@ margin-left: 45px;
       height: 100px;
        width: 100px;
       margin-top:-60px;
-         margin-left:2470px;
+         margin-left:900px;
                  }
 
 
@@ -149,7 +149,7 @@ color: #008FA8;
    2px -2px 0 rgb(0, 102, 255),
     -2px 2px 0 rgb(0, 102, 255),
      2px 2px 0 rgb(0, 102, 255);
-  font-size: 6.8em;
+  font-size: 3.8em;
   letter-spacing: 10px;
   border-right:5px solid;
   width: 100%;
