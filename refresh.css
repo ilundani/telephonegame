@@ -1,39 +1,21 @@
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
+ body{
+background-color: #ffffff;
+transition: background-color .3s ease;
 
-/* Control the left side */
-.left {
-  left: 0;
-  background-color: #ffffff;
-}
+ }
 
-/* Control the right side */
-.right {
-  right: 0;
-  background-color: #E6E1E1;
-}
+ .hover-container{
+  display: block;
+ }
 
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+ .hover-container:hover{
+  background-color: #FF0000;
 
-/* Style the image inside the centered container, if needed */
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
+  }
+
+  h1:hover{
+    color: #FF0000;
+  }
  h1{
     align-items: center;
     margin-left: 250px;
@@ -68,8 +50,6 @@ text-align: justify;
     border: 2px;
     padding:3px;
     padding-left: 2px;
-    border-color: #FF0000;
-    background-color: #FF0000;
     border-radius: 5%;
 
 }
@@ -81,18 +61,15 @@ text-align: justify;
   padding:3px;
   padding-left: 2px;
   border-color: #00ffff;
-  background-color: #00ffff;
+  background-color: #FF0000;
   border-radius: 5%;
 
 }
 .rumors:active{
-
   color:#ffffff;
     text-decoration: none;
     border: 2px;
     padding:3px;
     padding-left: 2px;
-    border-color: #FF0000;
-    background-color: #FF0000;
     border-radius: 5%;
 }

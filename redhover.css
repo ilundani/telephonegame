@@ -1,0 +1,76 @@
+body{
+    background-color: #ff0000;
+    transition: background-color .3s ease;
+    
+     }
+    
+     .hover-container{
+      display: block;
+     }
+    
+     .hover-container:hover{
+      background-color: #0DFF00;
+    
+      }
+    
+      h1:hover{
+        color: #0DFF00;
+      }
+     h1{
+        align-items: center;
+        margin-left: 250px;
+    margin-right: 250px;
+    text-align: justify;
+        font-size: 1.7rem;
+            font-family: "Jersey 15", serif;
+            font-weight: 500;
+            font-style: normal;
+            color:#ffffff;
+            padding: 10px;
+            margin: 20px;
+        
+          }
+          
+    
+    .dot{
+            height: 95px;
+            width: 95px;
+            background-color: #008FA8;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 46.5%;
+            margin-top: 13%;
+    
+    }
+    
+    .rumors{
+    
+        color:#FF0000;
+        text-decoration: none;
+        border: 2px;
+        padding:3px;
+        padding-left: 2px;
+        border-radius: 5%;
+    
+    }
+    
+    .rumors:hover{
+      color:#ffffff;
+      text-decoration: none;
+      border: 2px;
+      padding:3px;
+      padding-left: 2px;
+      border-color: #00ffff;
+      background-color: #FF0000;
+      border-radius: 5%;
+    
+    }
+    .rumors:active{
+      color:#ffffff;
+        text-decoration: none;
+        border: 2px;
+        padding:3px;
+        padding-left: 2px;
+        border-radius: 5%;
+    }
+    
