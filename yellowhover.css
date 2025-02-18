@@ -1,0 +1,169 @@
+body{
+    background-color: #FFEE00;
+    
+     }
+    
+     .hover-container{
+      display: block;
+      width: 70%;
+      margin-left: 15%;
+      margin-top: 7%;
+      margin-bottom: 15%;
+     }
+    
+     .hover-container:hover{
+      background-color: #008FA8;
+    
+      }
+    
+      h1:hover{
+        color: #008FA8;
+      }
+     h1{
+        align-items: center;
+        margin-left: 250px;
+    margin-right: 250px;
+    text-align: justify;
+        font-size: 1.7rem;
+            font-family: "Jersey 15", serif;
+            font-weight: 500;
+            font-style: normal;
+            color:#ffffff;
+            padding: 10px;
+            margin: 20px;
+            margin-top: -10%;
+        
+          }
+          
+    
+    .dot{
+            height: 95px;
+            width: 95px;
+            background-color: #008FA8;
+            border-radius: 50%;
+            display: inline-block;
+            margin-left: 46.5%;
+            margin-top: 1%;
+    
+    }
+    
+    .rumors{
+    
+        color:#FFEE00;
+        text-decoration: none;
+        border: 2px;
+        padding:3px;
+        padding-left: 2px;
+        border-radius: 5%;
+    
+    }
+    
+    .rumors:hover{
+      color:#ffffff;
+      text-decoration: none;
+      border: 2px;
+      padding:3px;
+      padding-left: 2px;
+      border-color: #00ffff;
+      background-color: #FF0000;
+      border-radius: 5%;
+    
+    }
+    .rumors:active{
+      color:#ffffff;
+        text-decoration: none;
+        border: 2px;
+        padding:3px;
+        padding-left: 2px;
+        border-radius: 5%;
+    }
+    .reddot{
+        height: 85px;
+              width: 85px;
+              background-color: #ffffff;
+              border-radius: 50%;
+              display: inline-block;
+              margin-left: 38.5%;
+              transition: transform 0.3s ease-in-out; 
+  
+      }
+      .reddot:hover {
+        transform: translatex(70px) scale(2.1);}
+.greendot{
+  height: 45px;
+                  width: 45px;
+                  background-color: #ffffff;
+                  border-radius: 50%;
+                  display: inline-block;
+                  margin-left: 20.5%;
+                  transition: transform 0.3s ease-in-out; 
+      
+          }
+          .bluedot:hover {
+            transform: translatey(-70px) scale(2.1);}
+            .bluedot{
+                height: 65px;
+                                width: 65px;
+                                background-color: #ffffff;
+                                border-radius: 50%;
+                                display: inline-block;
+                                margin-left: 5.5%;
+                                margin-bottom: -10%;
+                                transition: transform 0.3s ease-in-out; 
+                    
+                        }
+                        .greendot:hover {
+                          transform: translatey(-70px) scale(2.1);}  
+                          
+                          .blue1{
+                            height: 60px;
+                            width: 60px;
+                            margin-left: 70%;
+                            transition: transform 0.3s ease-in-out;
+}
+                            .blue1:hover {
+                                transform: translatey(-70px) scale(2.1);}  
+                            
+                            
+                            
+                            .red1{
+                              height: 30px;
+                              width: 30px;
+                              margin-bottom: 10px;
+                              margin-left: -37px;
+                              transition: transform 0.3s ease-in-out;
+                              }
+                              .red1:hover {
+                                transform: translatey(-70px) scale(2.1);}  
+        
+    .back{
+    
+      color:#FFEE00;
+      text-decoration: none;
+      border: 2px;
+      padding:3px;
+      padding-left: 2px;
+      border-radius: 5%;
+  
+  }
+  
+  .back:hover{
+    color:#ffffff;
+    text-decoration: none;
+    border: 2px;
+    padding:3px;
+    padding-left: 2px;
+    border-color: #00ffff;
+    background-color: #FFEE00;
+    border-radius: 5%;
+  
+  }
+  .back:active{
+    color:#ffffff;
+      text-decoration: none;
+      border: 2px;
+      padding:3px;
+      padding-left: 2px;
+      border-radius: 5%;
+  }
+  
