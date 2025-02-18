@@ -178,6 +178,7 @@ a:hover .hover-e5 {
     color: #FF0000;
     text-shadow:none;
 }
+<<<<<<< HEAD
 
 @media only screen and (max-width: 768px) {
     /* For tablets and smaller screens */
@@ -233,3 +234,30 @@ a:hover .hover-e5 {
         font-size: 14px; /* Smaller text for mobile */
     }
 }
+=======
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 20px; /* Even smaller font size */
+    }
+
+    .button {
+        font-size: 18px; /* Even smaller button text */
+        width: 90%; /* Make button width almost full */
+        padding: 8px 16px; /* Adjust padding */
+    }
+
+    .image-text-container .image-container img {
+        width: 70%; /* Make the image smaller */
+        height: auto;
+        margin-top: 20px; /* Adjust margin */
+    }
+
+    a {
+        font-size: 14px; /* Even smaller link text */
+    }
+
+    button {
+        font-size: 18px; /* Small button font size for very small screens */
+    }
+}
+>>>>>>> ce9afeca51e851ab367cab40e305258119711c9b
