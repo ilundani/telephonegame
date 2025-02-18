@@ -233,13 +233,13 @@ color: #008FA8;
   }
 
   .whatisit {
-    font-size: .9em; /* Smaller text size */
+    font-size: 1.1em; /* Smaller text size */
     margin-right: 20px;
     margin-left: 10px;
   }
 
   .text {
-    font-size: .4em; /* Slightly smaller text */
+    font-size: .7em; /* Slightly smaller text */
     letter-spacing: 5px; /* Reduced letter spacing */
   }
 
