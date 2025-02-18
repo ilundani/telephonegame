@@ -286,22 +286,22 @@ color: #008FA8;
 /* Media Query for Very Small Devices */
 @media only screen and (max-width: 480px) {
   .blue1, .red1, .green1, .blue2, .yellow2, .yellow1, .green2, .blue3 {
-    height: 60px;
-    width: 60px;
+    height: 30px;
+    width: 30px;
   }
 
   .blue1 {
-    margin-left: 5px;
+    margin-left: 55px;
     margin-bottom: -25px;
   }
 
   .red1 {
-    margin-left: -20px;
+    margin-left: 20px;
     margin-bottom: 5px;
   }
 
   .green1 {
-    margin-left: 30px;
+    margin-left: 200px;
   }
 
   .yellow2 {
@@ -310,7 +310,7 @@ color: #008FA8;
   }
 
   .yellow1 {
-    margin-left: 300px;
+    margin-left: 200px;
   }
 
   .green2 {
@@ -329,7 +329,7 @@ color: #008FA8;
   }
 
   .text {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: -20px;
     letter-spacing: 3px;
   }
