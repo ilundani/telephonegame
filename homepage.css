@@ -182,6 +182,8 @@ a:hover .hover-e5 {
 @media (max-width: 768px){
 }
 
+.center{height: 40%; width: 40%; margin-top: 80px;}
+
 .image-text-container .image-container img{
     transition: transform .5s ease, opacity 5s ease; /* Transition the scaling effect */
 
@@ -190,12 +192,12 @@ a:hover .hover-e5 {
 .image-text-container:hover .image-container img {
 
     content: url(https://i.imgur.com/dURRlKC.png);
-    height: 32%; 
-    width: 32%; 
+    height: 70%; 
+    width: 70%; 
     margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
-    transform: scale(1.2); 
+    transform: scale(2); 
     opacity: 0.4;
 } 
     h1{
@@ -224,12 +226,12 @@ a:hover .hover-e5 {
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 13px;
+        font-size: 20px;
         border-radius: 10px;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 90%;
         margin-top: 20px;    
     
       }
