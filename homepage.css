@@ -178,3 +178,42 @@ a:hover .hover-e5 {
     color: #FF0000;
     text-shadow:none;
 }
+
+@media (max-width: 768px){
+    h1{
+    color: rgb(0, 102, 255); 
+    font-family: "Handjet", serif;
+    font-weight: 700; 
+    text-align: center;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;}
+    
+     button{
+        background-color: #FFFFFF;
+        font-family: "Handjet", serif;
+        border: none;
+        font-weight: 700;
+        color: #5ebfd0;
+        text-shadow:
+        -1px -2px 0 #008FA8,  
+         1px -2px 0 #008FA8,
+         -1px 2px 0 #008FA8,
+          1px 2px 0 #008FA8;
+        padding: 12px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 20px;    
+    
+      }
+
+}
