@@ -178,47 +178,46 @@ a:hover .hover-e5 {
     color: #FF0000;
     text-shadow:none;
 }
-<<<<<<< HEAD
 
 @media only screen and (max-width: 768px) {
     /* For tablets and smaller screens */
     h1 {
-        font-size: 30px; /* Adjust heading size for smaller screens */
+        font-size: 30px; 
     }
 
     button {
-        font-size: 28px; /* Slightly smaller button text */
-        width: 80%; /* Buttons take up more width on smaller screens */
+        font-size: 28px; 
+        width: 80%; 
     }
 
     .image-text-container .image-container img {
-        width: 80%; /* Adjust image size for smaller screens */
+        width: 80%; 
         height: auto;
     }
 
     .center {
-        width: 80%; /* Centering container takes more space */
+        width: 80%; 
     }
 
     .vertical-center {
-        font-size: 16px; /* Slightly smaller text for mobile */
+        font-size: 16px; 
     }
 }
 
 @media only screen and (max-width: 480px) {
     /* For mobile phones */
     body {
-        font-size: 20px; /* Larger text for mobile */
+        font-size: 20px;
     }
 
     h1 {
-        font-size: 24px; /* Smaller heading for mobile */
+        font-size: 24px; 
     }
 
     button {
-        font-size: 24px; /* Smaller button text for mobile */
-        width: 90%; /* Buttons take up even more width */
-        padding: 10px 20px; /* Adjust padding for mobile */
+        font-size: 24px; 
+        width: 75%; 
+        padding: 10px 20px; 
     }
 
     .image-text-container .image-container img {
@@ -234,30 +233,3 @@ a:hover .hover-e5 {
         font-size: 14px; /* Smaller text for mobile */
     }
 }
-=======
-@media only screen and (max-width: 400px) {
-    h1 {
-        font-size: 20px; /* Even smaller font size */
-    }
-
-    .button {
-        font-size: 18px; /* Even smaller button text */
-        width: 90%; /* Make button width almost full */
-        padding: 8px 16px; /* Adjust padding */
-    }
-
-    .image-text-container .image-container img {
-        width: 70%; /* Make the image smaller */
-        height: auto;
-        margin-top: 20px; /* Adjust margin */
-    }
-
-    a {
-        font-size: 14px; /* Even smaller link text */
-    }
-
-    button {
-        font-size: 18px; /* Small button font size for very small screens */
-    }
-}
->>>>>>> ce9afeca51e851ab367cab40e305258119711c9b
