@@ -229,44 +229,44 @@ color: #008FA8;
 }
 @media only screen and (max-width: 375px) {
   body {
-    font-size: 16px; /* Smaller body text */
+    font-size: 20px; /* Smaller body text */
   }
 
   .whatisit {
-    font-size: 1.4em; /* Smaller text size */
-    margin-left: 20px;
+    font-size: .9em; /* Smaller text size */
     margin-right: 20px;
+    margin-left: 10px;
   }
 
   .text {
-    font-size: 2.5em; /* Slightly smaller text */
-    letter-spacing: 8px; /* Reduced letter spacing */
+    font-size: 15px; /* Slightly smaller text */
+    letter-spacing: 5px; /* Reduced letter spacing */
   }
 
   .blue1 {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     margin-left: 30px;
     margin-bottom: -40px;
   }
 
   .red1 {
-    height: 70px;
-    width: 70px;
-    margin-left: -30px;
+    height: 20px;
+    width: 20px;
+    margin-left: 50px;
     margin-bottom: 5px;
   }
 
   .green1 {
-    height: 55px;
-    width: 55px;
+    height: 45px;
+    width: 45px;
     margin-left: 70px;
     margin-bottom: -5px;
   }
 
   .blue2 {
-    height: 35px;
-    width: 35px;
+    height: 15px;
+    width: 15px;
     margin-bottom: -55px;
     margin-right: 80px;
   }
@@ -286,15 +286,15 @@ color: #008FA8;
   }
 
   .green2 {
-    height: 25px;
-    width: 25px;
+    height: 65px;
+    width: 65px;
     margin-bottom: -130px;
     margin-left: 1050px;
   }
 
   .blue3 {
-    height: 90px;
-    width: 90px;
+    height: 45px;
+    width: 45px;
     margin-top: -50px;
     margin-left: 950px;
   }
