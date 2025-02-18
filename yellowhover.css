@@ -166,4 +166,43 @@ body{
       padding-left: 2px;
       border-radius: 5%;
   }
+  @media only screen and (max-width: 480px) {
+    h1 {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 1.2rem;
+      text-align: center;
+    }
   
+    .hover-container {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .dot {
+      height: 70px;
+      width: 70px;
+      margin-left: 50%;
+      margin-top: 4%;
+      transform: translateX(-50%);
+    }
+  
+    .reddot {
+      height: 65px;
+      width: 65px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .greendot {
+      height: 35px;
+      width: 35px;
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .rumors, .back {
+      font-size: 0.9rem;
+      padding: 2px;
+    }
+  }

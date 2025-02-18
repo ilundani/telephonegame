@@ -116,4 +116,71 @@ body{
       padding-left: 2px;
       border-radius: 5%;
   }
+
+  @media only screen and (max-width: 768px) {
+    h1 {
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 1.4rem;
+      text-align: center;
+    }
+  
+    .hover-container {
+      width: 80%; /* Adjust container width for smaller screens */
+    }
+  
+    .dot {
+      height: 80px;
+      width: 80px;
+      margin-left: 50%;
+      margin-top: 3%;
+      transform: translateX(-50%); /* Center the dot */
+    }
+  
+    .reddot {
+      height: 75px;
+      width: 75px;
+      margin-left: 50%;
+      transform: translateX(-50%); /* Center the red dot */
+    }
+  
+    .rumors, .back {
+      font-size: 1rem;
+      padding: 2px;
+    }
+  }
+  
+  /* Media Query for Very Small Devices (Phones) */
+  @media only screen and (max-width: 480px) {
+    h1 {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .hover-container {
+      width: 100%; /* Full width on phones */
+    }
+  
+    .dot {
+      height: 70px;
+      width: 70px;
+      margin-left: 50%;
+      margin-top: 4%;
+      transform: translateX(-50%); /* Center the dot */
+    }
+  
+    .reddot {
+      height: 65px;
+      width: 65px;
+      margin-left: 50%;
+      transform: translateX(-50%); /* Center the red dot */
+    }
+  
+    .rumors, .back {
+      font-size: 0.9rem;
+      padding: 2px;
+    }
+  }
   

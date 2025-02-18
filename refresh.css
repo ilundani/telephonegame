@@ -73,3 +73,65 @@ text-align: justify;
     padding-left: 2px;
     border-radius: 5%;
 }
+@media only screen and (max-width: 768px) {
+  h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .dot {
+    height: 80px;
+    width: 80px;
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+
+  .rumors {
+    font-size: 1rem;
+    padding: 2px;
+  }
+
+  .rumors:hover {
+    font-size: 1rem;
+    padding: 2px;
+  }
+
+  .rumors:active {
+    font-size: 1rem;
+    padding: 2px;
+  }
+}
+
+/* Media Query for Very Small Devices */
+@media only screen and (max-width: 480px) {
+  h1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .dot {
+    height: 70px;
+    width: 70px;
+    margin-left: 35%;
+    margin-top: 8%;
+  }
+
+  .rumors {
+    font-size: 0.9rem;
+    padding: 2px;
+  }
+
+  .rumors:hover {
+    font-size: 0.9rem;
+    padding: 2px;
+  }
+
+  .rumors:active {
+    font-size: 0.9rem;
+    padding: 2px;
+  }
+}
