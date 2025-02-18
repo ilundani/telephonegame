@@ -159,9 +159,10 @@ body{
     }
   
     .greendot {
-      height: 35px;
-      width: 35px;
+      height: 65px;
+      width: 65px;
       margin-left: 50%;
+      margin-bottom: 2%;
       transform: translateX(-50%); /* Center the green dot */
     }
   
